@@ -1,3 +1,21 @@
+/*
+
+  _     ____       _  ____  _     ____  _  ____
+  / \   /  _ \     / |/  _ \/ \ /\/  __\/ \/  _ \
+  | |   | / \|     | || / \|| | |||  \/|| || / \|
+  | |_/\| |-||  /\_| || |-||| \_/||    /| || |-||
+  \____/\_/ \|  \____/\_/ \|\____/\_/\_\\_/\_/ \|
+
+
+ ATTINY 85   + Ultrasonic sensor + Adafruit FX sound Board.
+ Version 1.0
+
+  Creado por Joan Villaperros
+  Revisión 1 - Alex Vargas Benanburg.
+
+*/
+
+
 const int pingPin = 3;  //echo
 const int pingPin1 = 2; //trigger
 int ledverde = 0;  // test, conecte un led verde desde el chip pin 5 
